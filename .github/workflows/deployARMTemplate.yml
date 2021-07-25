@@ -3,7 +3,7 @@ name: Deploy ARM Template
 on:
   push:
     branches:
-      - master
+      - main
 env:
   AZURE_SUBSCRIPTION_ID: 0695e974-6cd1-4751-893e-e616debfd821   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExerciseRP-rg   # set this to your target resource group
